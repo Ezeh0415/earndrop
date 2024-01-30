@@ -1,0 +1,112 @@
+.main {
+    margin: 15px 60px;
+}
+
+.main .mainSection {
+    display: flex;
+}
+
+.div1 {
+    width: 500px;
+}
+
+.div1 section {
+    display: flex;
+    align-items: center;
+}
+
+.div1 h1 {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.div1 p {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.icon1 {
+    color:lightslategrey;
+    font-size: 16px;
+}
+
+.icon2 {
+    color:lightslategrey;
+    font-size: 16px;
+}
+
+.div2 {
+    display: flex;
+}
+
+.div2first p {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+.div2first ul  {
+    margin-left: -10px;
+}
+
+.div2first ul li  {
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: light;
+    margin-bottom: 20px;
+}
+
+.div2first ul li a {
+    text-decoration: none;
+    color: lightslategray;
+}
+
+.div2second p {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+.div2second ul  {
+    margin-left: -10px;
+}
+
+.div2second ul li  {
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: light;
+    margin-bottom: 20px;
+}
+
+.div2second ul li a {
+    text-decoration: none;
+    color: lightslategray;
+}
+
+.div2third p {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-left: 25px;
+}
+
+.div2third ul  {
+    margin-left: -10px;
+}
+
+.div2third ul li  {
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: light;
+    margin-bottom: 20px;
+}
+
+.div2third ul li a {
+    text-decoration: none;
+    color: lightslategray;
+}

@@ -1,0 +1,72 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 50px;
+    padding: 5px;
+}
+
+.main section:first-of-type div {
+    display: flex;
+    align-items: center;
+}
+
+.main section:first-of-type div h1 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.secondSection div ul {
+    display:flex;
+    align-items:center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 600px;
+    margin-left: 180px;
+
+}
+
+.secondSection div ul li {
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.secondSection div ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.secondSection div ul span .hide {
+    display: none;
+}
+
+.secondSection div ul span .show {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -120px;
+    border: solid 1px;
+    padding: 10px;
+    width:160px;
+}
+
+.secondSection div ul span ul li {
+    text-transform: capitalize;
+    margin-left: -50px;
+
+}
+
+.main section:last-of-type div button a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.main section:last-of-type div button {
+    padding: 9px;
+    border-radius: 8px;
+}
